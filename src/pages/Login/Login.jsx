@@ -53,7 +53,7 @@ export default function Login() {
     try {
       const res = await axios({
         method: 'post',
-        url: 'https://erpbackend.pythonanywhere.com/api/v1/auth/login/',
+        url: 'https://apiprotech.asatullayev.uz/api/v1/auth/login/',
         data: loginPayload,
         headers: {
           'Content-Type': 'application/json',

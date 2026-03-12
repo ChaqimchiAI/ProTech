@@ -1,0 +1,202 @@
+.hover-white:hover {
+    color: #eaeff4;
+    transition: 0.3s;
+}
+
+.no-hover-effect:hover {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+.hover-orange:hover {
+    color: #e8c91d;
+    transition: 0.3s;
+}
+
+.modalFadeIn {
+    animation: modalFadeIn 0.5s forwards;
+}
+
+.button-delate {
+    transition: 0.3s;
+}
+
+.button-delate:hover {
+    background: #cd3232 !important;
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.modalFadeOut {
+    animation: modalFadeOut 0.5s ease-out;
+}
+
+
+@keyframes modalFadeOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Notification animations */
+.cp-notification {
+    animation: notifIn 600ms cubic-bezier(.22, .9, .36, 1) both;
+}
+
+.cp-notification.hide {
+    animation: notifOut 500ms ease-in forwards;
+}
+
+@keyframes notifIn {
+    from {
+        opacity: 0;
+        transform: translateX(100px) scale(.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-20px) scale(1);
+    }
+}
+
+@keyframes notifOut {
+    from {
+        opacity: 1;
+        transform: translateX(-20px) scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(100px) scale(.98);
+    }
+}
+
+.button-hover {
+    transition: 0.3s !important;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.Bread:hover .button-hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.lidCard {
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid transparent !important;
+}
+
+.lidCard:hover {
+    border: 1px solid #0095db50 !important;
+}
+
+
+.dots:hover {
+    transition: 0.3s;
+    background: #7c8fac40;
+}
+
+#bg-primary {
+    transition: 0.3s;
+}
+
+#bg-primary:hover {
+    background: #0d9eff;
+    color: #05112b !important;
+}
+
+.no-caret::after {
+    display: none !important;
+}
+
+.shadow-hover {
+    transition: 0.3s;
+}
+
+.shadow-hover:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) !important;
+}
+
+.save-button {
+    background: #0085db !important;
+    transition: 0.3s !important;
+    color: #fff !important;
+    border: 1px solid #0085db !important;
+    padding: 8px 24px !important;
+}
+
+.save-button:hover {
+    background: #0085db99 !important;
+}
+
+.delete-button {
+    background: #db323220 !important;
+    transition: 0.3s !important;
+    color: #cd3232 !important;
+    border: 1px solid #cd3232 !important;
+    padding: 8px 24px !important;
+}
+
+.delete-button:hover {
+    background: #db323230 !important;
+}
+
+.cencel-button {
+    background: #f9f9f9 !important;
+    transition: 0.3s !important;
+    color: #000 !important;
+    padding: 8px 24px !important;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}

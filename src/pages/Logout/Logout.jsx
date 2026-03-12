@@ -12,7 +12,7 @@ export default function Logout() {
 
       try {
         await axios.post(
-          "https://erpbackend.pythonanywhere.com/api/v1/auth/logout/",
+          "https://apiprotech.asatullayev.uz/api/v1/auth/logout/",
           { refresh: refreshToken || "" },
           {
             headers: {

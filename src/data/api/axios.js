@@ -69,7 +69,7 @@ api.interceptors.response.use(
       try {
         // Server kutayotgan body formatida yuboramiz
         const res = await axios.post(
-          "https://erpbackend.pythonanywhere.com/api/v1/auth/refresh/",
+          "https://apiprotech.asatullayev.uz/api/v1/auth/refresh/",
           { refresh: refreshToken }
         );
 
